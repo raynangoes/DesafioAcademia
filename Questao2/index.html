@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Validador de Cadastro</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="screen">
+        <div class="leftside">
+            <img src="images/financial_data.png" alt="" />
+        </div>
+        <div class="rightside">
+            <h1>Crie uma conta</h1>
+
+            <form method="POST" >
+                <div>
+                    <label for="nome">Digite seu nome:</label>
+                    <input type="text" name="nome" id="nome"  />
+                  </div>
+              <div>
+                <label for="senha">Digite sua senha:</label>
+                <input type="password" name="senha" id="senha"  />
+              </div>
+                <div>
+                    <input type="reset" name="limpar" />
+                    <input type="submit" onclick="return validarSenha()" value="Cadastrar" />
+                </div>
+            </form>
+           
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
