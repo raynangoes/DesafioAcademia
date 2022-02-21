@@ -26,3 +26,20 @@ A validação desses requisitos foi feito em Java Scrip, onde para cadastrar um 
 ![exe2](https://user-images.githubusercontent.com/74264815/154869178-49201def-34a1-4e5f-92b8-a0c0fb37aac1.png)
 ![exec2](https://user-images.githubusercontent.com/74264815/154869261-806775e9-fd82-41c0-83a5-51597cdde3c8.png)
 
+*Questão 3:
+
+Duas palavras podem ser consideradas anagramas de si mesmas se as letras de uma palavra podem ser realocadas para formar a outra palavra. Dada uma string qualquer, desenvolva um algoritmo que encontre o número de pares de substrings que são anagramas.
+Exemplo:
+Exemplo 1)
+Entrada:
+ovo
+
+Saída:
+2
+
+![q3](https://user-images.githubusercontent.com/74264815/154871257-55aed42c-e357-4365-9406-260e33d9809c.png)
+
+
+
+
+
