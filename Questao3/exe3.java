@@ -34,7 +34,7 @@ public class exe3 {
 
         Scanner r = new Scanner(System.in);
 
-        System.out.print("Escreva uma  palavra");
+        System.out.print("Escreva uma  palavra ");
         String resposta = r.next();
 
         System.out.print(" Quantidade de anagramas possiveis "  + anagramas(resposta) );
